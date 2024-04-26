@@ -1,0 +1,148 @@
+
+ body{
+  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\mainbg.webp");
+  background-repeat: no-repeat;
+  background-size:cover;
+} 
+
+.aboutbg{
+  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\adminhmbg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+} 
+
+
+
+ul, ol {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav {
+    background-color:none;
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  nav img {
+
+    width: 50px;
+    height:50px ;
+    margin-right: 10px; 
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+  }
+  
+
+
+  nav {
+    
+    top: 0;
+    width: 100%;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgba(245, 244, 241, 0.998); 
+  }
+  
+  nav a:hover {
+    background-color:#583759; 
+    border-radius: 4px;
+  }
+  
+  nav ul {
+    text-align: left;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd9de;
+    border-radius: 10%;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(2, 2, 2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #5a476c;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:grid
+  }
+  
+
+  h2 {
+    margin-bottom: 20px;
+  }
+   .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text],input[type=password],input[type=number],input[type=email],
+  select,input[type=date],textarea
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label
+  {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+
+ 
+  }
+  .label1{
+    font-size: x-large;
+    color: #ccc;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .label2
+  {
+    font-family: Magneto;
+    font-size:150%;
+    text-align: center;
+    padding-left: 70%;
+    padding-top: 10%;
+  }
+

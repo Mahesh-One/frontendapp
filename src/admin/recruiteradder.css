@@ -1,0 +1,73 @@
+
+
+.recbg{
+  background-image: url('D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\recbg.jpg');
+}
+
+
+.card0 {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    background: #dde1e7;
+    position: absolute;
+    left: 50ch;
+    top: 9ch;
+    color: #595959;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #BABECC,
+                inset -5px -5px 10px #ffffff73;
+                width: 500px;
+    padding-left: 15cap;
+    
+    
+  }
+  
+  .label0 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    position: absolute;
+    left: 4cap;
+    
+    display:flex; /* Ensures the label stays on a single line */
+    width: 150px; /* Adjust according to your label width */
+  }
+  
+ 
+  .text0,
+  input[type='text']
+  input[type='email']
+  select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 60%;
+  }
+   
+
+  .button0[type="submit"] {
+    background-color: #ad00f2;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 20cap;
+    position: relative;
+    right: 7ch
+  }
+  
+  .button0[type="submit"]:hover {
+    background-color: #ba00a2;
+  }
+  
+  .label8{
+    color: rgb(230, 0, 255);
+    position: absolute;
+    top:1.5cap;
+    right:38cap
+
+  }

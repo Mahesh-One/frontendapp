@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+body{
+  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\forepage\placement.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+
 }
 
 .App-logo {
