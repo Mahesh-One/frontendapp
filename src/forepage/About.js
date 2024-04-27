@@ -7,7 +7,7 @@ export default function About() {
   
 
   return (
-    <div  className='aboutbg' style={{height:'512pt', marginTop:'-15pt'}} >
+    <div >
         <h3 style={{color:'white', textAlign:'center'}}> About Page</h3>
         <p  style={{color:'white', fontFamily:'Lucida', fontSize:'150%' , textAlign:'justify'}}>The Campus Placement/Recruitment Management System
            is a dynamic web application that helps companies from various educational sectors to recruit and
