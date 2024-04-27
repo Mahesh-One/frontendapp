@@ -5,11 +5,11 @@
   }
   
   
-.adhmbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\adminhmbg.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-}
+.adminhomebg{
+    background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\adminhomepic.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
 
 .stdenbg{
   background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentenrollbg.jpg");
