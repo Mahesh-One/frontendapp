@@ -27,7 +27,7 @@ export default function AdminHome() {
   };
 
   return (
-    <div className='adhmbg' style={{height:'517pt', marginTop:'2pt'}} >
+    <div className='adminhomebg' style={{height:'540pt', marginTop:'1pt'}} >
       {adminData && (
         <div style={{alignContent:"center"}}> 
           <h1 style={{color:'white',textAlign:'center'}}>Welcome {adminData.username}</h1>
