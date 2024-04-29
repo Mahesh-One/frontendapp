@@ -1,35 +1,35 @@
 /* recruiter.css */
 .bgimg{
-  background-image: url('D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\recbg.jpg');
+  background-image: url('../images/recbg.jpg');
 }
 
 
 .rechmbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\recruiterHomebg.jpg");
+  background-image: url("../images/recruiterHomebg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .jobbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\viewjob.jpg");
+  background-image: url("../images/viewjob.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .jobpstbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\viewjob.jpg");
+  background-image: url("../images/viewjob.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .jobappbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\jobstatusbg (3).jpg");
+  background-image: url("../images/jobstatusbg (3).jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .recpfbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\recruiterprofile.jpg");
+  background-image: url("../images/recruiterprofile.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }

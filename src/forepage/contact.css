@@ -1,6 +1,6 @@
 
 .contactbimg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\contactbg.jpg");
+  background-image: url("../images/contactbg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }

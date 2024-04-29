@@ -1,12 +1,12 @@
 
 .stdbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\student\loginbgs.jpg");
+  background-image: url("../../src/student/loginbgs.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .stdpfbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentprofile.jpg");
+  background-image: url("../images/studentprofile.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -238,7 +238,7 @@ img
 }
 
 .table-container1 {
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentviewjob.jpg");
+  background-image: url("../images/studentviewjob.jpg");
   padding: 20px;
   border-radius: 10px;
   margin: 20px auto;
@@ -250,7 +250,7 @@ img
 }
 
 .table-containers {
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentviewjob.jpg");
+  background-image: url("../images/studentviewjob.jpg");
   padding: 20px;
   border-radius: 10px;
   margin: 20px auto;
@@ -301,7 +301,7 @@ img
 }
 
 .stdhmbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentbg.jpg");
+  background-image: url("../images/studentbg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }

@@ -1,6 +1,6 @@
 
 .backscrn{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\stdregbg.jpg");
+  background-image: url("../images/stdregbg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -126,7 +126,7 @@
   }
 
   .updbg{
-    background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentbg1.jpg");
+    background-image: url("../images/studentbg1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
   }

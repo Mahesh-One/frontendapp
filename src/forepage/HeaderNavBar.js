@@ -10,6 +10,7 @@ import AdminLogin from '../admin/AdminLogin';
 import profile1 from './projectlogo.jpg';
 import RecruiterLogin from './../recruiter/RecruiterLogin';
 import config from '../config';
+import PageNotFound from './PageNotFound';
 
 
 export default function HeaderNavBar({onAdminLogin,onStudentLogin,onRecruiterLogin}) {
@@ -51,6 +52,8 @@ export default function HeaderNavBar({onAdminLogin,onStudentLogin,onRecruiterLog
         <Route path='/enrollment' element={<Enrollment />} exact />
         <Route path='/adminlogin'element={<AdminLogin onAdminLogin={onAdminLogin}/>} exact />
         <Route path='/recruiterlogin'element={<RecruiterLogin onRecruiterLogin={onRecruiterLogin}/>} exact />
+        <Route path="*" element={<PageNotFound/>} exact />
+
 
       </Routes>
     </div>

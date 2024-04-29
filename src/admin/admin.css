@@ -5,30 +5,21 @@
   }
 
   .adminhomebg{
-    background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\adminhomepic.jpg");
+    background-image: url("../images/adminhomepic.jpg");
     background-repeat: no-repeat;
     background-size:cover;
   }
   
-  
-<<<<<<< HEAD
 
-=======
-.adminhomebg{
-    background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\adminhomepic.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-  }
->>>>>>> 4abe51d9ba7533ebbef8ea7dd2aa0e507ae9c2d2
 
 .stdenbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\studentenrollbg.jpg");
+  background-image: url("../images/studentenrollbg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .rectrvwbg{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\recruiterviewbg.jpg");
+  background-image: url("../images/recruiterviewbg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }

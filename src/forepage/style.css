@@ -1,6 +1,6 @@
 
  body{
-  background-image: url("D:\EVEN SEM\MSWD\SDPPROJECT\frontendapp\demofrontendapp\src\images\mainbg.webp");
+  background-image: url("../images/mainbg.webp");
   background-repeat: no-repeat;
   background-size:cover;
 } 
@@ -141,3 +141,13 @@ ul, ol {
     padding-top: 10%;
   }
 
+  .not-found-container {
+    text-align: center;
+  }
+  
+  .not-found-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px; 
+  }
+  
