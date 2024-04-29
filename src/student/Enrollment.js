@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './enroll.css'
-import { colors } from '@mui/material';
 import config from '../config';
 
 export default function Registration() 

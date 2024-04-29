@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './recruiter.css';
-import config from '../config';
 
 export default function RecruiterProfile() {
   const [recruiterData, setRecruiterData] = useState(null);

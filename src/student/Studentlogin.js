@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {Routes,Route,Link, useNavigate} from 'react-router-dom'
 import Enrollment from './Enrollment'
 import './student.css'
-import profile from './projectlogo.jpg'
 import axios from 'axios'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import config from '../config'
@@ -58,7 +57,6 @@ export default function Studentlogin({onStudentLogin}) {
       }
         <form className='card' onSubmit={handleSubmit}>
         <div >
-        {/* <img src={profile} alt="profile" width="40%" /> */}
          <AccountCircleIcon color="primary" fontSize="large" />
          <h2 >Studentlogin</h2>
           <label className='label' >Email</label>

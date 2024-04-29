@@ -6,7 +6,6 @@ import HeaderNavBar from './forepage/HeaderNavBar';
 import AdminNavBar from './admin/AdminNavBar';
 import RecruiterNavBar from './recruiter/RecruiterNavBar';
 import StudentNavBar from './student/StudentNavBar'
-import config from './config';
 
 
 function App() {

@@ -6,7 +6,6 @@ import RecruiterHome from './RecruiterHome'
 import ViewJobs from './ViewJobs'
 import AddJob from './AddJob'
 import ViewJobApplicants from './ViewJobApplicants'
-import config from '../config'
 
 
 export default function RecruiterNavBar() 

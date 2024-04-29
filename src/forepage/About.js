@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import config from '../config'
 
 export default function About() {
 

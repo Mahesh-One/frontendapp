@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import AdminLogin from './../admin/AdminLogin';
-import config from '../config';
 
 export default function StudentHome() {
   const [studentData, setStudentData] = useState("");

@@ -1,11 +1,11 @@
 import React, { useState, useRef } from 'react';
 import './contact.css'; 
 import emailjs from 'emailjs-com'; // Import emailjs library
-import config from '../config';
 
 const ContactForm = () => {
   const form = useRef(); // Define form using useRef()
 
+  // eslint-disable-next-line no-unused-vars
   const sendEmail = (e) => {
     e.preventDefault();
 

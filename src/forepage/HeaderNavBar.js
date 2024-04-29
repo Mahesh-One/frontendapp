@@ -9,7 +9,6 @@ import Enrollment from '../student/Enrollment';
 import AdminLogin from '../admin/AdminLogin';
 import profile1 from './projectlogo.jpg';
 import RecruiterLogin from './../recruiter/RecruiterLogin';
-import config from '../config';
 import PageNotFound from './PageNotFound';
 
 

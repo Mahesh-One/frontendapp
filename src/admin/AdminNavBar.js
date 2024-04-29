@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Routes, Link, useNavigate } from 'react-router-dom';
 import './admin.css';
-import config from '../config';
 
 import AdminHome from './AdminHome';
 import ViewStudents from './ViewStudents';

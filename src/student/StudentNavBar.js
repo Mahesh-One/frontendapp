@@ -6,7 +6,6 @@ import StudentProfile from './StudentProfile'
 import UpdateStudentProfile from './UpdateStudentProfile'
 import ViewAppliedJobs from './ViewAppliedJobs'
 import ViewJobsPosted from './ViewJobsPosted'
-import config from '../config'
 
 
 export default function StudentNavBar() 
