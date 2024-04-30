@@ -1,6 +1,6 @@
 const config = 
 {
-    url: 'http://localhost:2004'
+    url: 'https://backendapp-1-cyjm.onrender.com'
 
 };
 
