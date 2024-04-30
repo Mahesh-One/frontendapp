@@ -1,6 +1,6 @@
 const config = 
 {
-    url: 'http://localhost:2004'
+    url: 'https://sdpbackendapp-u3ub.onrender.com'
 
 };
 
