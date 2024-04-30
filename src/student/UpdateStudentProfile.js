@@ -44,7 +44,7 @@ export default function UpdateJSProfile() {
       }
       if (Object.keys(updatedData).length !== 0) {
         updatedData.email = studentData.email;
-        const response = await axios.put(`${config}/updatestudentprofile`, updatedData);
+        const response = await axios.put(`${config.url}/updatestudentprofile`, updatedData);
         setMessage(response.data);
         setError('');
         const res = await axios.get(`${config.url}/studentprofile/${studentData.email}`, updatedData)
