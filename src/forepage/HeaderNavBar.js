@@ -47,7 +47,7 @@ export default function HeaderNavBar({onAdminLogin,onStudentLogin,onRecruiterLog
         <Route path='/' element={<Home />} exact />
         <Route path='/about' element={<About />} exact />
         <Route path='/contact' element={<Contact />} exact />
-        <Route path='/studentlogin' element={<Studentlogin onStudentLogin={onStudentLogin}/>} exact />
+        <Route path='/studentlogin/*' element={<Studentlogin onStudentLogin={onStudentLogin}/>} exact />
         <Route path='/enrollment' element={<Enrollment />} exact />
         <Route path='/adminlogin'element={<AdminLogin onAdminLogin={onAdminLogin}/>} exact />
         <Route path='/recruiterlogin'element={<RecruiterLogin onRecruiterLogin={onRecruiterLogin}/>} exact />
