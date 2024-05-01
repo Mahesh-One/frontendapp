@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import {FaUser,FaLock } from "react-icons/fa";
 import profilee from '../images/adminphto.jpeg'
 import aboutbg1 from '../images/aboutbg1.avif';
-import config from '../config';
+// import config from '../config';
 
 export default function AdminLogin({onAdminLogin}) 
 {
@@ -27,7 +27,7 @@ export default function AdminLogin({onAdminLogin})
     e.preventDefault();
     try 
     {
-      const response = await axios.post(`${config.url}/checkadminlogin`, formData);
+      const response = await axios.post('https://sdpbackendapp-u3ub.onrender.com/checkadminlogin', formData);
       if (response.data != null) 
       {
         onAdminLogin(); 

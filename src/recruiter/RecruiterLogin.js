@@ -50,7 +50,7 @@ export default function RecruiterLogin({onRecruiterLogin})
   return (
     <div className='bgimg' style={{height:'742px', marginTop:'-80px'}}>
       {
-        message ? <h4 align="center">{message}</h4> : <h4  align="center">{error}</h4>
+        message ? <h4 align="center">{message}</h4> : <h4  align = "center">{error}</h4>
       }
       <form onSubmit={handleSubmit} className='wrapper'>
         <h2 style={{color:'#666666'}}> Recruiter Login</h2>
