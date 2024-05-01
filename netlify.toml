@@ -1,4 +1,0 @@
-[[redirect]]
-from = "/*"
-to ="/home.js"
-status=200
